@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-17T01:51:48.562Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="iQ4mT6erAC3tDfxfm_kD" version="20.8.20" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-02-17T01:56:14.443Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="E1wsIpF4Uk-Vt_lK3uS0" version="20.8.20" type="github" pages="3">
   <diagram id="VzCVbxKHRMm88u6nLTFB" name="渠道开+审核开">
     <mxGraphModel dx="1468" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -339,7 +339,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="rlK9O2ZvEI7ufGRF9oEV" name="渠道审核差异化情况">
-    <mxGraphModel dx="1017" dy="694" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1682" dy="920" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -393,7 +393,7 @@
         <mxCell id="kTTPp5wc_mZRoH5r3kDI-13" value="无渠道用户0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="20" y="479" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kTTPp5wc_mZRoH5r3kDI-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.96;entryY=0.7;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kTTPp5wc_mZRoH5r3kDI-15" target="kTTPp5wc_mZRoH5r3kDI-33">
+        <mxCell id="kTTPp5wc_mZRoH5r3kDI-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.96;entryY=0.7;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" edge="1" parent="1" source="kTTPp5wc_mZRoH5r3kDI-15" target="kTTPp5wc_mZRoH5r3kDI-33">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="810" y="509" />
@@ -463,8 +463,8 @@
         <mxCell id="kTTPp5wc_mZRoH5r3kDI-27" value="普通用户渠道过滤器" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="410" y="330" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="kTTPp5wc_mZRoH5r3kDI-28" value="已通过审核的聊天&lt;br&gt;本渠道管理员消息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="kTTPp5wc_mZRoH5r3kDI-27">
-          <mxGeometry x="30" y="30" width="100" height="30" as="geometry" />
+        <mxCell id="kTTPp5wc_mZRoH5r3kDI-28" value="经过聊天审核过滤器&lt;br&gt;本渠道管理员消息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="kTTPp5wc_mZRoH5r3kDI-27">
+          <mxGeometry x="29" y="30" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="kTTPp5wc_mZRoH5r3kDI-29" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=3;" edge="1" parent="1" source="kTTPp5wc_mZRoH5r3kDI-30" target="kTTPp5wc_mZRoH5r3kDI-34">
           <mxGeometry relative="1" as="geometry" />
@@ -493,15 +493,15 @@
         <mxCell id="kTTPp5wc_mZRoH5r3kDI-35" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.372;entryY=1.019;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;" edge="1" parent="1" source="kTTPp5wc_mZRoH5r3kDI-37" target="kTTPp5wc_mZRoH5r3kDI-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kTTPp5wc_mZRoH5r3kDI-36" value="渠道管理员消息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kTTPp5wc_mZRoH5r3kDI-35">
+        <mxCell id="kTTPp5wc_mZRoH5r3kDI-36" value="渠道管理员消息+0渠道其他管理员" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kTTPp5wc_mZRoH5r3kDI-35">
           <mxGeometry x="-0.3013" y="-1" relative="1" as="geometry">
-            <mxPoint x="25" y="4" as="offset" />
+            <mxPoint x="5" y="3" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="kTTPp5wc_mZRoH5r3kDI-37" value="管理员渠道过滤器" style="swimlane;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="190" y="380" width="180" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="kTTPp5wc_mZRoH5r3kDI-38" value="接收所有渠道消息&lt;br&gt;渠道不能普通管理消息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="kTTPp5wc_mZRoH5r3kDI-37">
+        <mxCell id="kTTPp5wc_mZRoH5r3kDI-38" value="接收所有渠道消息&lt;br&gt;其他渠道不能接收0渠道的消息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="kTTPp5wc_mZRoH5r3kDI-37">
           <mxGeometry x="20" y="30" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
