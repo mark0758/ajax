@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-17T02:50:17.569Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="p02qlXuf8nJZdMD6zs9r" version="20.8.20" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-02-17T06:25:19.639Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="laDvwT0FG_yAA7UaeB6x" version="20.8.20" type="github" pages="3">
   <diagram id="VzCVbxKHRMm88u6nLTFB" name="渠道开+审核开">
-    <mxGraphModel dx="1468" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1401" dy="868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -131,7 +131,7 @@
         <mxCell id="FkoYIBF8dfnU25UiVlQv-24" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=3;" edge="1" parent="1" source="FkoYIBF8dfnU25UiVlQv-25" target="FkoYIBF8dfnU25UiVlQv-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FkoYIBF8dfnU25UiVlQv-25" value="审核聊天审核区" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="FkoYIBF8dfnU25UiVlQv-25" value="聊天审核区" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="236" y="700" width="164" height="150" as="geometry" />
         </mxCell>
         <mxCell id="FkoYIBF8dfnU25UiVlQv-26" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;exitX=0.07;exitY=0.4;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="FkoYIBF8dfnU25UiVlQv-28" target="FkoYIBF8dfnU25UiVlQv-22">
@@ -176,7 +176,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="渠道关+审核开" id="VsuYbWDmgx9zDYtBoQRo">
-    <mxGraphModel dx="1682" dy="920" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1319" dy="816" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -279,10 +279,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="foWkTYoayNs3bJzzhuhe-25" value="审核聊天审核区" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="236" y="700" width="164" height="150" as="geometry" />
+          <mxGeometry x="236" y="700" width="164" height="120" as="geometry" />
         </mxCell>
         <mxCell id="foWkTYoayNs3bJzzhuhe-35" value="除普通管理员&lt;br&gt;渠道分组管理员只能审核自己渠道的消息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="foWkTYoayNs3bJzzhuhe-25">
-          <mxGeometry x="4" y="60" width="160" height="40" as="geometry" />
+          <mxGeometry x="4" y="53" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="foWkTYoayNs3bJzzhuhe-26" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="foWkTYoayNs3bJzzhuhe-28" target="foWkTYoayNs3bJzzhuhe-22">
           <mxGeometry relative="1" as="geometry" />
@@ -296,13 +296,15 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0DbTB2pa8-eszpQI0NAg-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.8;exitY=0.8;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="foWkTYoayNs3bJzzhuhe-28" target="foWkTYoayNs3bJzzhuhe-25">
+        <mxCell id="0DbTB2pa8-eszpQI0NAg-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.8;exitY=0.8;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" edge="1" parent="1" source="foWkTYoayNs3bJzzhuhe-28">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="740" as="targetPoint" />
             <Array as="points">
               <mxPoint x="778" y="690" />
               <mxPoint x="545" y="690" />
               <mxPoint x="545" y="720" />
-              <mxPoint x="400" y="720" />
+              <mxPoint x="450" y="720" />
+              <mxPoint x="450" y="740" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -345,7 +347,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="rlK9O2ZvEI7ufGRF9oEV" name="渠道审核差异化情况">
-    <mxGraphModel dx="1682" dy="920" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1401" dy="868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -445,7 +447,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kTTPp5wc_mZRoH5r3kDI-24" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.632;entryY=1.027;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;" edge="1" parent="1" source="kTTPp5wc_mZRoH5r3kDI-27" target="kTTPp5wc_mZRoH5r3kDI-5">
+        <mxCell id="kTTPp5wc_mZRoH5r3kDI-24" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.632;entryY=1.027;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;" edge="1" parent="1" source="kTTPp5wc_mZRoH5r3kDI-27" target="kTTPp5wc_mZRoH5r3kDI-5">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="410" y="360" />
