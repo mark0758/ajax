@@ -1,117 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-17T01:29:34.907Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="zV4AJaxrg2rQX9WWKs0Z" version="20.8.20" type="github" pages="3">
-  <diagram name="渠道关+审核开" id="VsuYbWDmgx9zDYtBoQRo">
-    <mxGraphModel dx="931" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="foWkTYoayNs3bJzzhuhe-1" value="审核开" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="300" y="20" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="foWkTYoayNs3bJzzhuhe-2" value="分组关" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="400" y="20" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="foWkTYoayNs3bJzzhuhe-5" value="无渠道管理员0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="20" y="190" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="foWkTYoayNs3bJzzhuhe-6" value="渠道A管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="320" y="130" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="foWkTYoayNs3bJzzhuhe-7" value="渠道B管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="560" y="160" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="foWkTYoayNs3bJzzhuhe-8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="foWkTYoayNs3bJzzhuhe-9" target="foWkTYoayNs3bJzzhuhe-25">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="foWkTYoayNs3bJzzhuhe-9" value="无渠道用户0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="20" y="479" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="foWkTYoayNs3bJzzhuhe-10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="foWkTYoayNs3bJzzhuhe-11" target="foWkTYoayNs3bJzzhuhe-25">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="foWkTYoayNs3bJzzhuhe-11" value="渠道A用户" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="320" y="484" width="120" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="foWkTYoayNs3bJzzhuhe-12" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.878;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;" edge="1" parent="1" source="foWkTYoayNs3bJzzhuhe-13" target="foWkTYoayNs3bJzzhuhe-25">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="foWkTYoayNs3bJzzhuhe-13" value="渠道B用户" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="520" y="479" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="foWkTYoayNs3bJzzhuhe-14" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="foWkTYoayNs3bJzzhuhe-22" target="foWkTYoayNs3bJzzhuhe-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="foWkTYoayNs3bJzzhuhe-15" value="混合消息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="foWkTYoayNs3bJzzhuhe-14">
-          <mxGeometry x="0.2138" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="foWkTYoayNs3bJzzhuhe-16" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;strokeWidth=3;" edge="1" parent="1" source="foWkTYoayNs3bJzzhuhe-22" target="foWkTYoayNs3bJzzhuhe-7">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="foWkTYoayNs3bJzzhuhe-17" value="混合消息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="foWkTYoayNs3bJzzhuhe-16">
-          <mxGeometry x="-0.1628" y="-3" relative="1" as="geometry">
-            <mxPoint x="11" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="foWkTYoayNs3bJzzhuhe-22" value="普通用户渠道过滤器" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="410" y="330" width="160" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="foWkTYoayNs3bJzzhuhe-23" value="不过滤" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="foWkTYoayNs3bJzzhuhe-22">
-          <mxGeometry x="30" y="30" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="foWkTYoayNs3bJzzhuhe-24" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=3;" edge="1" parent="1" source="foWkTYoayNs3bJzzhuhe-25" target="foWkTYoayNs3bJzzhuhe-29">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="foWkTYoayNs3bJzzhuhe-25" value="审核聊天审核区" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="236" y="700" width="164" height="150" as="geometry" />
-        </mxCell>
-        <mxCell id="foWkTYoayNs3bJzzhuhe-35" value="除普通管理员&lt;br&gt;渠道分组管理员只能审核自己渠道的消息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="foWkTYoayNs3bJzzhuhe-25">
-          <mxGeometry x="4" y="60" width="160" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="foWkTYoayNs3bJzzhuhe-26" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="foWkTYoayNs3bJzzhuhe-28" target="foWkTYoayNs3bJzzhuhe-22">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="foWkTYoayNs3bJzzhuhe-27" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.13;exitY=0.77;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="foWkTYoayNs3bJzzhuhe-28" target="foWkTYoayNs3bJzzhuhe-32">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="704" y="415" />
-              <mxPoint x="530" y="415" />
-              <mxPoint x="530" y="433" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="foWkTYoayNs3bJzzhuhe-28" value="聊天服务器" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="690" y="320" width="110" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="foWkTYoayNs3bJzzhuhe-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="foWkTYoayNs3bJzzhuhe-29" target="foWkTYoayNs3bJzzhuhe-28">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="foWkTYoayNs3bJzzhuhe-29" value="通过后发送服务器" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;startSize=23;" vertex="1" parent="1">
-          <mxGeometry x="470" y="740" width="170" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="foWkTYoayNs3bJzzhuhe-30" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.372;entryY=1.019;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;" edge="1" parent="1" source="foWkTYoayNs3bJzzhuhe-32" target="foWkTYoayNs3bJzzhuhe-5">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="65" y="398" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="foWkTYoayNs3bJzzhuhe-31" value="混合所有消息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="foWkTYoayNs3bJzzhuhe-30">
-          <mxGeometry x="-0.3013" y="-1" relative="1" as="geometry">
-            <mxPoint x="16" y="1" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="foWkTYoayNs3bJzzhuhe-32" value="管理员渠道过滤器" style="swimlane;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="230" y="380" width="140" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="foWkTYoayNs3bJzzhuhe-33" value="不过滤" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="foWkTYoayNs3bJzzhuhe-32">
-          <mxGeometry x="20" y="30" width="100" height="20" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
+<mxfile host="app.diagrams.net" modified="2023-02-17T01:51:48.562Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="iQ4mT6erAC3tDfxfm_kD" version="20.8.20" type="github" pages="3">
   <diagram id="VzCVbxKHRMm88u6nLTFB" name="渠道开+审核开">
-    <mxGraphModel dx="1093" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1468" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -163,7 +52,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FkoYIBF8dfnU25UiVlQv-9" value="无渠道用户0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="20" y="479" width="120" height="60" as="geometry" />
+          <mxGeometry x="20" y="510" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FkoYIBF8dfnU25UiVlQv-10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="FkoYIBF8dfnU25UiVlQv-11" target="FkoYIBF8dfnU25UiVlQv-25">
           <mxGeometry relative="1" as="geometry" />
@@ -194,7 +83,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="FkoYIBF8dfnU25UiVlQv-18" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.816;entryY=1.045;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;" edge="1" parent="1" source="FkoYIBF8dfnU25UiVlQv-22" target="FkoYIBF8dfnU25UiVlQv-5">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="330" />
+              <mxPoint x="420" y="290" />
+              <mxPoint x="118" y="290" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="FkoYIBF8dfnU25UiVlQv-19" value="0渠道的消息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FkoYIBF8dfnU25UiVlQv-18">
           <mxGeometry x="0.0797" y="-1" relative="1" as="geometry">
@@ -214,12 +109,17 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FkoYIBF8dfnU25UiVlQv-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="FkoYIBF8dfnU25UiVlQv-22" target="FkoYIBF8dfnU25UiVlQv-9">
+        <mxCell id="FkoYIBF8dfnU25UiVlQv-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="1" source="FkoYIBF8dfnU25UiVlQv-22" target="FkoYIBF8dfnU25UiVlQv-9">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="490" y="460" />
               <mxPoint x="80" y="460" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q_daBsCylwnGvECk5tep-2" value="0渠道普通用户消息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FkoYIBF8dfnU25UiVlQv-40">
+          <mxGeometry x="0.1658" y="2" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="FkoYIBF8dfnU25UiVlQv-22" value="普通用户渠道过滤器" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
@@ -249,6 +149,9 @@
         <mxCell id="FkoYIBF8dfnU25UiVlQv-28" value="聊天服务器" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="690" y="320" width="110" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="Q_daBsCylwnGvECk5tep-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.947;entryY=0.757;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;strokeColor=#F821FF;" edge="1" parent="1" source="FkoYIBF8dfnU25UiVlQv-29" target="FkoYIBF8dfnU25UiVlQv-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="FkoYIBF8dfnU25UiVlQv-29" value="通过后发送服务器" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;startSize=23;" vertex="1" parent="1">
           <mxGeometry x="470" y="740" width="170" height="60" as="geometry" />
         </mxCell>
@@ -269,8 +172,174 @@
       </root>
     </mxGraphModel>
   </diagram>
+  <diagram name="渠道关+审核开" id="VsuYbWDmgx9zDYtBoQRo">
+    <mxGraphModel dx="1682" dy="920" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="foWkTYoayNs3bJzzhuhe-1" value="审核开" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="156" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="foWkTYoayNs3bJzzhuhe-2" value="分组关" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="250" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4meMGPpO9oW0gvdUiH-y-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeColor=#F821FF;strokeWidth=2;" edge="1" parent="1" source="foWkTYoayNs3bJzzhuhe-5" target="foWkTYoayNs3bJzzhuhe-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="110" />
+              <mxPoint x="745" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="foWkTYoayNs3bJzzhuhe-5" value="无渠道管理员0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="20" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4meMGPpO9oW0gvdUiH-y-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeColor=#F821FF;strokeWidth=2;" edge="1" parent="1" source="foWkTYoayNs3bJzzhuhe-6" target="foWkTYoayNs3bJzzhuhe-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4meMGPpO9oW0gvdUiH-y-5" value="f发送聊天" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4meMGPpO9oW0gvdUiH-y-3">
+          <mxGeometry x="-0.6443" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="foWkTYoayNs3bJzzhuhe-6" value="渠道A管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="320" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4meMGPpO9oW0gvdUiH-y-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.4;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#F821FF;strokeWidth=2;" edge="1" parent="1" source="foWkTYoayNs3bJzzhuhe-7" target="foWkTYoayNs3bJzzhuhe-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="foWkTYoayNs3bJzzhuhe-7" value="渠道B管理&lt;br&gt;关闭审核" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="560" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="foWkTYoayNs3bJzzhuhe-8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="foWkTYoayNs3bJzzhuhe-9" target="foWkTYoayNs3bJzzhuhe-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="foWkTYoayNs3bJzzhuhe-9" value="无渠道用户0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="20" y="479" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="foWkTYoayNs3bJzzhuhe-10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="foWkTYoayNs3bJzzhuhe-11" target="foWkTYoayNs3bJzzhuhe-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0DbTB2pa8-eszpQI0NAg-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.949;entryY=0.774;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fillColor=#d0cee2;strokeColor=#56517e;" edge="1" parent="1" source="foWkTYoayNs3bJzzhuhe-11" target="foWkTYoayNs3bJzzhuhe-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0DbTB2pa8-eszpQI0NAg-6" value="用户消息发送" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0DbTB2pa8-eszpQI0NAg-5">
+          <mxGeometry x="-0.1213" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="foWkTYoayNs3bJzzhuhe-11" value="渠道A用户" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="320" y="484" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0DbTB2pa8-eszpQI0NAg-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.31;entryY=0.8;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="foWkTYoayNs3bJzzhuhe-13" target="foWkTYoayNs3bJzzhuhe-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0DbTB2pa8-eszpQI0NAg-2" value="发送" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0DbTB2pa8-eszpQI0NAg-1">
+          <mxGeometry x="-0.3654" y="-3" relative="1" as="geometry">
+            <mxPoint x="-7" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="foWkTYoayNs3bJzzhuhe-13" value="渠道B用户" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="520" y="479" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="foWkTYoayNs3bJzzhuhe-14" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="foWkTYoayNs3bJzzhuhe-22" target="foWkTYoayNs3bJzzhuhe-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="foWkTYoayNs3bJzzhuhe-15" value="混合消息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="foWkTYoayNs3bJzzhuhe-14">
+          <mxGeometry x="0.2138" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="foWkTYoayNs3bJzzhuhe-16" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;strokeWidth=3;" edge="1" parent="1" source="foWkTYoayNs3bJzzhuhe-22" target="foWkTYoayNs3bJzzhuhe-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="foWkTYoayNs3bJzzhuhe-17" value="混合消息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="foWkTYoayNs3bJzzhuhe-16">
+          <mxGeometry x="-0.1628" y="-3" relative="1" as="geometry">
+            <mxPoint x="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4meMGPpO9oW0gvdUiH-y-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;strokeColor=default;strokeWidth=2;" edge="1" parent="1" source="foWkTYoayNs3bJzzhuhe-22" target="foWkTYoayNs3bJzzhuhe-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4meMGPpO9oW0gvdUiH-y-7" value="混合所有消息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4meMGPpO9oW0gvdUiH-y-6">
+          <mxGeometry x="-0.1663" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="foWkTYoayNs3bJzzhuhe-22" value="普通用户渠道过滤器" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="410" y="330" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="foWkTYoayNs3bJzzhuhe-23" value="不过滤&lt;br&gt;判断渠道是否需要审核" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="foWkTYoayNs3bJzzhuhe-22">
+          <mxGeometry x="15" y="30" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="foWkTYoayNs3bJzzhuhe-24" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=3;" edge="1" parent="1" source="foWkTYoayNs3bJzzhuhe-25" target="foWkTYoayNs3bJzzhuhe-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="foWkTYoayNs3bJzzhuhe-25" value="审核聊天审核区" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="236" y="700" width="164" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="foWkTYoayNs3bJzzhuhe-35" value="除普通管理员&lt;br&gt;渠道分组管理员只能审核自己渠道的消息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="foWkTYoayNs3bJzzhuhe-25">
+          <mxGeometry x="4" y="60" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="foWkTYoayNs3bJzzhuhe-26" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="foWkTYoayNs3bJzzhuhe-28" target="foWkTYoayNs3bJzzhuhe-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="foWkTYoayNs3bJzzhuhe-27" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.13;exitY=0.77;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="foWkTYoayNs3bJzzhuhe-28" target="foWkTYoayNs3bJzzhuhe-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="704" y="415" />
+              <mxPoint x="530" y="415" />
+              <mxPoint x="530" y="433" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0DbTB2pa8-eszpQI0NAg-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.8;exitY=0.8;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="foWkTYoayNs3bJzzhuhe-28" target="foWkTYoayNs3bJzzhuhe-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="778" y="690" />
+              <mxPoint x="545" y="690" />
+              <mxPoint x="545" y="720" />
+              <mxPoint x="400" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_wurWuA-T1RNmn7c4DZH-1" value="用户接收消息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0DbTB2pa8-eszpQI0NAg-7">
+          <mxGeometry x="0.1386" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="foWkTYoayNs3bJzzhuhe-28" value="聊天服务器" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="690" y="320" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="foWkTYoayNs3bJzzhuhe-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="foWkTYoayNs3bJzzhuhe-29" target="foWkTYoayNs3bJzzhuhe-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="foWkTYoayNs3bJzzhuhe-29" value="通过后发送服务器" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="470" y="740" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="foWkTYoayNs3bJzzhuhe-30" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.372;entryY=1.019;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;" edge="1" parent="1" source="foWkTYoayNs3bJzzhuhe-32" target="foWkTYoayNs3bJzzhuhe-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="65" y="397" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="foWkTYoayNs3bJzzhuhe-31" value="混合所有消息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="foWkTYoayNs3bJzzhuhe-30">
+          <mxGeometry x="-0.3013" y="-1" relative="1" as="geometry">
+            <mxPoint x="16" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="foWkTYoayNs3bJzzhuhe-32" value="管理员渠道过滤器" style="swimlane;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="230" y="380" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="foWkTYoayNs3bJzzhuhe-33" value="不过滤" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="foWkTYoayNs3bJzzhuhe-32">
+          <mxGeometry x="20" y="30" width="100" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram id="rlK9O2ZvEI7ufGRF9oEV" name="渠道审核差异化情况">
-    <mxGraphModel dx="1257" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1017" dy="694" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -284,7 +353,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="110" y="80" />
-              <mxPoint x="745" y="80" />
+              <mxPoint x="760" y="80" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -304,7 +373,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kTTPp5wc_mZRoH5r3kDI-8" value="渠道A管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="kTTPp5wc_mZRoH5r3kDI-8" value="渠道A管理&lt;br&gt;关闭聊天审核" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="320" y="130" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kTTPp5wc_mZRoH5r3kDI-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.4;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kTTPp5wc_mZRoH5r3kDI-11" target="kTTPp5wc_mZRoH5r3kDI-33">
@@ -324,8 +393,18 @@
         <mxCell id="kTTPp5wc_mZRoH5r3kDI-13" value="无渠道用户0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="20" y="479" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kTTPp5wc_mZRoH5r3kDI-14" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="kTTPp5wc_mZRoH5r3kDI-15" target="kTTPp5wc_mZRoH5r3kDI-30">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="kTTPp5wc_mZRoH5r3kDI-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.96;entryY=0.7;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kTTPp5wc_mZRoH5r3kDI-15" target="kTTPp5wc_mZRoH5r3kDI-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="810" y="509" />
+              <mxPoint x="810" y="376" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kTTPp5wc_mZRoH5r3kDI-40" value="直接发送" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kTTPp5wc_mZRoH5r3kDI-39">
+          <mxGeometry x="-0.1785" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="kTTPp5wc_mZRoH5r3kDI-15" value="渠道A用户" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="320" y="484" width="120" height="50" as="geometry" />
@@ -334,7 +413,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kTTPp5wc_mZRoH5r3kDI-17" value="渠道B用户" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="520" y="479" width="120" height="60" as="geometry" />
+          <mxGeometry x="490" y="539" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kTTPp5wc_mZRoH5r3kDI-18" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="kTTPp5wc_mZRoH5r3kDI-27" target="kTTPp5wc_mZRoH5r3kDI-8">
           <mxGeometry relative="1" as="geometry" />
@@ -352,7 +431,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kTTPp5wc_mZRoH5r3kDI-22" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.816;entryY=1.045;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;" edge="1" parent="1" source="kTTPp5wc_mZRoH5r3kDI-27" target="kTTPp5wc_mZRoH5r3kDI-5">
+        <mxCell id="kTTPp5wc_mZRoH5r3kDI-22" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=-0.005;exitY=0.113;exitDx=0;exitDy=0;entryX=0.816;entryY=1.045;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;exitPerimeter=0;" edge="1" parent="1" source="kTTPp5wc_mZRoH5r3kDI-27" target="kTTPp5wc_mZRoH5r3kDI-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kTTPp5wc_mZRoH5r3kDI-23" value="0渠道的消息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kTTPp5wc_mZRoH5r3kDI-22">
@@ -360,11 +439,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kTTPp5wc_mZRoH5r3kDI-24" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.632;entryY=1.027;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;" edge="1" parent="1" source="kTTPp5wc_mZRoH5r3kDI-27" target="kTTPp5wc_mZRoH5r3kDI-5">
+        <mxCell id="kTTPp5wc_mZRoH5r3kDI-24" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.632;entryY=1.027;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;" edge="1" parent="1" source="kTTPp5wc_mZRoH5r3kDI-27" target="kTTPp5wc_mZRoH5r3kDI-5">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="410" y="340" />
-              <mxPoint x="96" y="340" />
+              <mxPoint x="410" y="360" />
+              <mxPoint x="96" y="360" />
             </Array>
           </mxGeometry>
         </mxCell>
