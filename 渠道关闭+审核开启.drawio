@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2023-02-17T01:56:14.443Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="E1wsIpF4Uk-Vt_lK3uS0" version="20.8.20" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-02-17T02:50:17.569Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="p02qlXuf8nJZdMD6zs9r" version="20.8.20" type="github" pages="3">
   <diagram id="VzCVbxKHRMm88u6nLTFB" name="渠道开+审核开">
     <mxGraphModel dx="1468" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="FkoYIBF8dfnU25UiVlQv-1" value="审核开" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="70" y="10" width="80" height="80" as="geometry" />
+          <mxGeometry x="90" y="10" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="FkoYIBF8dfnU25UiVlQv-2" value="分组开" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="170" y="10" width="80" height="80" as="geometry" />
+          <mxGeometry x="180" y="10" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="FkoYIBF8dfnU25UiVlQv-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="FkoYIBF8dfnU25UiVlQv-5" target="FkoYIBF8dfnU25UiVlQv-28">
           <mxGeometry relative="1" as="geometry">
@@ -168,6 +168,9 @@
         </mxCell>
         <mxCell id="FkoYIBF8dfnU25UiVlQv-33" value="接收所有渠道消息&lt;br&gt;渠道不能普通管理消息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="FkoYIBF8dfnU25UiVlQv-32">
           <mxGeometry x="20" y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ih-OVHqgtNpHeLKUPxtg-1" value="cms后台开关状态" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;" vertex="1" parent="1">
+          <mxGeometry y="10" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -334,6 +337,9 @@
         </mxCell>
         <mxCell id="foWkTYoayNs3bJzzhuhe-33" value="不过滤" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="foWkTYoayNs3bJzzhuhe-32">
           <mxGeometry x="20" y="30" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KAM4sqaqim4Gl9Nhy88H-1" value="cms后台开关状态" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;" vertex="1" parent="1">
+          <mxGeometry x="60" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -503,6 +509,9 @@
         </mxCell>
         <mxCell id="kTTPp5wc_mZRoH5r3kDI-38" value="接收所有渠道消息&lt;br&gt;其他渠道不能接收0渠道的消息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="kTTPp5wc_mZRoH5r3kDI-37">
           <mxGeometry x="20" y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R8ZfYt-ac45_OgMG5iBT-1" value="cms后台开关状态" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;" vertex="1" parent="1">
+          <mxGeometry x="270" y="10" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
